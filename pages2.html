@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal</title>
+    <style>
+        body {
+            font: italic 12px Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.5), rgba(255, 0, 255, 0.5), rgba(0, 128, 255, 0.5), rgba(255, 128, 0, 0.5));
+            background-size: 400% 400%;
+            animation: aurora-bg 10s ease infinite;
+            color: white;
+        }
+
+        @keyframes aurora-bg {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .content-box {
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        a {
+            color: lightblue;
+            text-decoration: none;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-box">
+        <h1><b>LAST NAME: Paredes</b></h1>
+        <h1><b>FIRST NAME: John Blaire</b></h1>
+        <h1><b>MIDDLE NAME: Francisco</b></h1>
+        <h1><b>SUFFIX: N/A</b></h1>
+        <h1><b>AGE: 21 years old</b></h1>
+        <h1><b>BIRTHDAY: May 9, 2003</b></h1>
+    </div>
+
+    <h1><a href="page1.html">Back to main page</a></h1>
+
+</body>
+</html>
